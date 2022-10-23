@@ -1,0 +1,18 @@
+<form action="/api/user/signup" method="post">
+    <h2>Форма регистрации</h2>
+    <div>
+        <label>Логин:&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="login" />
+    </div>
+    <div>&nbsp;</div>
+    <div>
+        <label>Пароль:&nbsp;</label>
+        <input type="password" name="pwd" />
+    </div>
+    <div>&nbsp;</div>
+    <div>
+        <input type="submit" value="Зарегистрироваться" />
+    </div>
+    <div>&nbsp;</div>
+    <div style="color: red;"><%= error_text %></div>
+</form>

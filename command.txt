@@ -1,0 +1,27 @@
+npm init -y
+
+npm i express
+npm i ejs
+npm install -D nodemon
+
+npm i passport
+npm i passport-local
+npm i express-session
+
+npm i dotenv
+
+npm uninstall ...
+
+npm uninstall uuid
+npm uninstall multer
+npm uninstall mongoose
+
+  "main": "src/index",
+  "scripts": {
+    "start": "node ./src/index",
+    "dev": "nodemon -L"
+  },
+
+
+
+npm run dev

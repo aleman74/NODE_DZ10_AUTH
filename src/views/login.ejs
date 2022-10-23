@@ -1,0 +1,19 @@
+<form action="/api/user/login" method="post">
+    <h2>Форма авторизации</h2>
+    <p><a href="/api/user/signup">Зарегистрироваться</a></p>
+    <div>
+        <label>Логин:&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="login" />
+    </div>
+    <div>&nbsp;</div>
+    <div>
+        <label>Пароль:&nbsp;</label>
+        <input type="password" name="pwd" />
+    </div>
+    <div>&nbsp;</div>
+    <div>
+        <input type="submit" value="Войти" />
+    </div>
+    <div>&nbsp;</div>
+    <div style="color: red;"><%= error_text %></div>
+</form>
